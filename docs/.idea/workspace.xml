@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/md/Spring/Spring IoC高级应用与源码分析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/Spring/自定义IoC&amp;AOP框架.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/MyBatis/MyBatis-Plus应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/Spring/Spring AOP高级应用与源码分析.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
       <workItem from="1622366351438" duration="3199000" />
       <workItem from="1622727322013" duration="614000" />
       <workItem from="1622875609519" duration="9296000" />
-      <workItem from="1622960636875" duration="6890000" />
+      <workItem from="1622960636875" duration="7657000" />
     </task>
     <servers />
   </component>
