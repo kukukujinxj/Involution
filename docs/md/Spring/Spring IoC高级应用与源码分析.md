@@ -95,3 +95,79 @@
 - 如果Bean实现了DisposableBean接口，则调用destroy方法销毁Bean
 
 - 如果在配置文件中通过destroy-method属性指定销毁方法，则调用该方法
+
+### 1.7 IoC容器认识
+
+- Spring应用上下文，官方称为IoC容器
+
+- 错误认识：
+
+    - 容器只是存放Bean的Map
+    
+- 正确认识：
+
+    - Map是IoC容器的一个成员，称为单例池（singletonObjects）
+    
+    - 容器是一组组件和过程的集合，包括BeanFactory、单例池、BeanPostProcessor等以及之间的协作流程
+
+## 2 Spring IoC源码深度剖析
+
+### 2.1 Spring Bean生命周期触发方法
+
+- 构造器执行、初始化方法执行、Bean后置处理器before/after方法：`AbstractApplicationContext#refresh#finishBeanFactoryInitialization`
+
+- Bean工厂后置处理器初始化、方法执行：`AbstractApplicationContext#refresh#invokeBeanFactoryPostProcessors`
+
+- Bean后置处理器初始化：`AbstractApplicationContext#refresh#registerBeanPostProcessor`
+
+### 2.2 refresh方法
+
+- 刷新容器
+
+- 步骤：
+
+    - synchronized (this.startupShutdownMonitor)：加锁，refresh与close方法互斥，不能同时刷新和关闭容器
+    
+    - prepareRefresh：刷新前的预处理
+    
+        - 设置Spring容器的启动时间
+        
+        - 开启活跃状态，撤销关闭状态
+        
+        - 验证环境信息中必须存在的属性
+        
+    - <font color=red>obtainFreshBeanFactory（重要）</font>
+    
+        - 获取BeanFactory，默认实现是DefaultListableBeanFactory
+        
+        - 加载BeanDefinition并注册到BeanDefinitionRegister
+        
+    - prepareBeanFactory(beanFactory)：BeanFactory的预准备工作（BeanFactory进行一些设置，如context的类加载器）
+    
+    - postProcessBeanFactory(beanFactory)：BeanFactory准备完成后进行的后置处理
+    
+    - <font color=red>invokeBeanFactoryPostProcessors(beanFactory)（重要）</font>：实例化实现了BeanFactoryProcessor接口的Bean，并调用接口方法
+    
+    - <font color=red>registerBeanPostProcessor(beanFactory)（重要）</font>：注册BeanPostProcessor（Bean的后置处理器），在创建Bean的前后等执行
+    
+    - initMessageSource：国际化功能组件，消息绑定，消息解析
+    
+    - initApplicationEventMulticaster：初始化事件分发器
+    
+    - onRefresh：子类重写该方法，在容器刷新时自定义逻辑，如创建Tomcat、Jetty等WEB服务器
+    
+    - registerListeners：注册应用监听器，实现了ApplicationListener接口的监听器
+    
+    - <font color=red>finishBeanFactoryInitialization(beanFactory)（重要）</font>
+    
+        - 初始化所有剩下的非懒加载单例Bean
+        
+        - 初始化创建非懒加载方式的单例Bean实例（未设置属性）
+        
+        - 填充属性
+        
+        - 初始化方法调用（如afterPropertiesSet方法、init-method方法）
+        
+        - 调用BeanPostProcessor（后置处理器）对实例Bean进行后置处理
+        
+    - finishRefresh：完成context的刷新
