@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/Spring/BeanDefinition加载注册时序图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Spring/BeanFactory容器继承体系.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Spring/BeanFactory时序图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Spring/循环依赖.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Spring/循环依赖例图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/md/Spring/Spring IoC高级应用与源码分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/Spring/Spring IoC高级应用与源码分析.md" afterDir="false" />
     </list>
@@ -23,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/微信公众平台" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/Spring" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,6 +38,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Involution\docs\images\Spring" />
       <recent name="D:\project\Involution\docs\images\微信公众平台" />
       <recent name="D:\project\Involution\docs" />
     </key>
@@ -52,7 +58,8 @@
       <workItem from="1622727322013" duration="614000" />
       <workItem from="1622875609519" duration="9296000" />
       <workItem from="1622960636875" duration="7658000" />
-      <workItem from="1623242363832" duration="6486000" />
+      <workItem from="1623242363832" duration="6609000" />
+      <workItem from="1623382713284" duration="11652000" />
     </task>
     <servers />
   </component>
@@ -68,9 +75,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622875988908" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1623248828870">
+    <state x="377" y="0" width="782" height="824" key="find.popup" timestamp="1623384539794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623248828870" />
+    <state x="377" y="0" width="782" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1623384539794" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1623389170347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623389170347" />
   </component>
 </project>
