@@ -83,7 +83,7 @@
 
 - 如果Bean实现了ApplicationContextAware接口，则调用setApplicationContext方法获取当前ApplicationContext实例的引用
 
-- 如果BeanPostProcessor和Bean关联，则调用该接口的预处理方法setProcessBeforeInitialization对Bean加功操作，Spring在此处获取代理对象
+- 如果BeanPostProcessor和Bean关联，则调用该接口的预处理方法setProcessBeforeInitialization对Bean加功操作
         
 - @PostConstruct
        
@@ -91,7 +91,7 @@
 
 - 如果在配置文件中通过init-method属性指定初始化方法，则调用该方法
 
-- 如果BeanPostProcessor和Bean关联，则调用该接口的预处理方法setProcessAfterInitialization，此时Bean已经可以被应用系统使用了
+- 如果BeanPostProcessor和Bean关联，则调用该接口的预处理方法setProcessAfterInitialization，此时Bean已经可以被应用系统使用了，Spring在此处获取代理对象
 
 - 如果指定Bean的作用范围是singleton，则触发Spring对该Bean生命周期的管理；如果作用范围为prototype，则由调用者管理
 
@@ -239,7 +239,7 @@
 
     - 构造器的循环依赖（构造器注入）
     
-    - Filed属性注入（set注入）
+    - Field属性注入（set注入）
 
 - 循环依赖无法解决场景：
 
