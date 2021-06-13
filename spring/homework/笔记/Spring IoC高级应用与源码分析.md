@@ -14,7 +14,7 @@
 
 ### 1.2 BeanFactory容器继承体系
 
-![](images/Spring/BeanFactory容器继承体系.jpg)
+![](images/BeanFactory容器继承体系.jpg)
 
 
 ### 1.3 Spring框架的IoC实现
@@ -191,7 +191,7 @@
 
 - 时序图：
 
-    - ![](images/Spring/BeanFactory时序图.png)
+    - ![](images/BeanFactory时序图.png)
 
 ### 2.4 BeanDefinition加载注册子流程
 
@@ -201,7 +201,7 @@
 
 - 时序图：
 
-    - ![](images/Spring/BeanDefinition加载注册时序图.png)
+    - ![](images/BeanDefinition加载注册时序图.png)
 
 ### 2.5 Bean创建流程
 
@@ -231,7 +231,7 @@
 
 - 循环依赖就是循环引用，两个或两个以上的Bean互相持有对方，最终形成闭环
 
-    - ![](images/Spring/循环依赖例图.png)
+    - ![](images/循环依赖例图.png)
 
 - 解决方法是提前暴露对象
 
@@ -255,4 +255,4 @@
 
     - 单例Bean通过set或者@Autowired循环依赖
     
-    - ![](images/Spring/循环依赖.png)
+    - ![](images/循环依赖.png)
