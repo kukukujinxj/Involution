@@ -3,14 +3,14 @@ package com.lagou.edu.service.impl;
 import annotation.Autowired;
 import annotation.Service;
 import annotation.Transactional;
-import com.lagou.edu.dao.impl.JdbcAccountDaoImpl;
+import com.lagou.edu.dao.AccountDao;
 import com.lagou.edu.pojo.Account;
 import com.lagou.edu.service.TransferService;
 
 /**
  * @author 应癫
  */
-@Service
+@Service("TransferService")
 @Transactional
 public class TransferServiceImpl implements TransferService {
 
@@ -20,11 +20,11 @@ public class TransferServiceImpl implements TransferService {
 
     // 最佳状态
     @Autowired
-    private JdbcAccountDaoImpl jdbcAccountDaoImpl;
+    private AccountDao accountDao;
 
     // 构造函数传值/set方法传值
-    public void setJdbcAccountDaoImpl(JdbcAccountDaoImpl jdbcAccountDaoImpl) {
-        this.jdbcAccountDaoImpl = jdbcAccountDaoImpl;
+    public void setAccountDao(AccountDao accountDao) {
+        this.accountDao = accountDao;
     }
 
     @Override
@@ -34,15 +34,15 @@ public class TransferServiceImpl implements TransferService {
             // 开启事务(关闭事务的自动提交)
             TransactionManager.getInstance().beginTransaction();*/
 
-        Account from = jdbcAccountDaoImpl.queryAccountByCardNo(fromCardNo);
-        Account to = jdbcAccountDaoImpl.queryAccountByCardNo(toCardNo);
+        Account from = accountDao.queryAccountByCardNo(fromCardNo);
+        Account to = accountDao.queryAccountByCardNo(toCardNo);
 
         from.setMoney(from.getMoney() - money);
         to.setMoney(to.getMoney() + money);
 
-        jdbcAccountDaoImpl.updateAccountByCardNo(to);
+        accountDao.updateAccountByCardNo(to);
         int c = 1 / 0;
-        jdbcAccountDaoImpl.updateAccountByCardNo(from);
+        accountDao.updateAccountByCardNo(from);
 
         /*    // 提交事务
 

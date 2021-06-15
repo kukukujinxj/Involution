@@ -31,7 +31,7 @@ public class TransferServlet extends HttpServlet {
 //    private ProxyFactory proxyFactory = (ProxyFactory) BeanFactory.getBean("proxyFactory");
 //    private TransferService transferService = (TransferService) proxyFactory.getJdkProxy(BeanFactory.getBean("transferService")) ;
     @Autowired
-    private TransferService transferService = (TransferService) BeanFactory.getBean("TransferServiceImpl");
+    private TransferService transferService = (TransferService) BeanFactory.getBean("TransferService");
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
