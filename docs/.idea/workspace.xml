@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/SpringMVC/DispatcherServlet继承结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringMVC/SpringDataJPA&amp;JPA规范&amp;Hibernate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringMVC/SpringMVC原理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringMVC/拦截器流程.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/SpringMVC/SpringMVC请求处理流程.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/SpringMVC/SpringMVC请求处理流程.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/md/SpringMVC/SpringData高级应用及其源码剖析.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringMVC/SpringData高级应用及其源码剖析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/SpringMVC/SpringMVC基础回顾及高级应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringMVC/SpringMVC基础回顾及高级应用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/SpringMVC/SpringMVC源码剖析及SSM整合.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringMVC/SpringMVC源码剖析及SSM整合.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/SpringMVC/自定义MVC框架.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringMVC/自定义MVC框架.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +59,8 @@
       <workItem from="1623474799581" duration="8858000" />
       <workItem from="1623847028353" duration="7560000" />
       <workItem from="1624087228461" duration="7396000" />
-      <workItem from="1624173565857" duration="9633000" />
+      <workItem from="1624173565857" duration="10329000" />
+      <workItem from="1624278884834" duration="3815000" />
     </task>
     <servers />
   </component>
