@@ -8,7 +8,7 @@
 
 ### 1.1 为什么导入dependency时不需要指定版本？
 
-- `spring-boot-starter-parent`通过继承`spring-boot-dependencies`从而实现了SpringBoot的版本依赖管理，所以SpringBoot工程继承`spring-boot-starter-parent`后已经具备版本锁定等配置了，因此Spring Boot项目中部分依赖不需要写版本号。
+- `spring-boot-starter-parent`通过继承`spring-boot-dependencies`从而实现了SpringBoot的版本依赖管理，所以SpringBoot工程继承`spring-boot-starter-parent`后已经具备版本锁定等配置了，因此SpringBoot项目中部分依赖不需要写版本号。
 
 ### 1.2 `spring-boot-starter-parent`父依赖启动器的主要作用是进行版本统一管理，那么项目运行依赖的JAR包是从何而来的？
 
@@ -20,11 +20,11 @@
 
 - 自动配置：根据添加的JAR包依赖，会自动将一些配置类的Bean注册进IoC容器，可以在需要的地方使用@Resource或@AutoWired等注解使用。
 
-### 2.2 Spring Boot是如何进行自动配置的，哪些组件进行了自动配置？
+### 2.2 SpringBoot是如何进行自动配置的，哪些组件进行了自动配置？
 
-- Spring Boot应用的启动入口是@SpringBootApplication注解标注类中的main()方法
+- SpringBoot应用的启动入口是@SpringBootApplication注解标注类中的main()方法
 
-- @SpringBootApplication：Spring Boot应用标注在某个类上说明这个类是Spring Boot的主配置类，Spring Boot就应该运行这个类的main()方法启动SpringBoot应用
+- @SpringBootApplication：SpringBoot应用标注在某个类上说明这个类是SpringBoot的主配置类，SpringBoot就应该运行这个类的main()方法启动SpringBoot应用
 
     - @SpringBootConfiguration：封装了@Configuration注解，标注该类为配置类
     
@@ -40,7 +40,7 @@
             
         - @Import：Spring的底层注解，给容器导入一个组件类
         
-            > @Import({AutoConfigurationImportSelector.class})：将`AutoConfigurationImportSelector`这个类导入到Spring容器中，`AutoConfigurationImportSelector`可以帮助Spring Boot应用将所有符合条件的@Configuration配置都加载到当前Spring Boot创建并使用的IoC容器中  
+            > @Import({AutoConfigurationImportSelector.class})：将`AutoConfigurationImportSelector`这个类导入到Spring容器中，`AutoConfigurationImportSelector`可以帮助SpringBoot应用将所有符合条件的@Configuration配置都加载到当前SpringBoot创建并使用的IoC容器中  
             > ![](../../images/SpringBoot/AutoConfigurationImportSelector接口.png)  
             > AutoConfigurationImportSelector实现了DeferredImportSelector接口和各种Aware接口（在某个时机触发回调获取相应的组件），DefaultAware接口又继承了ImportSelector接口  
             > 自动配置实现逻辑入口方法：DeferredImportSelectorGrouping类的getImports方法
@@ -49,8 +49,8 @@
             >> 利用@EnableAutoConfiguration注解的exclude属性，排除自动配置类  
             >> AutoConfigurationImportFilter接口去过滤自动配置类是否符合其标注注解（若有标注的话）@ConditionalOnClass，@ConditionalOnBean和@ConditionalOnWebApplication 的条件，若都符合的话则返回匹配结果  
             >> 通过需要排除的自动配置类集合和过滤后所符合条件的自动配置类集合再次筛选，排除不需要自动配置的类  
-            >> 对标注@Order注解的自动配置类进行排序
-            >> 返回需要自动配置类的全路径
+            >> 对标注@Order注解的自动配置类进行排序  
+            >> 返回需要自动配置类的全路径  
             >> 最后Spring将筛选后的自动配置类导入到IoC容器中
             >> ![](../../images/SpringBoot/SpringBoot自动配置原理.jpg)
 
@@ -85,7 +85,7 @@
 
 - 获取并启动监听器
 
-    - 获取classpath下META-INF/spring.factories中已配置的SpringApplicationRunListener，负责在Spring Boot启动不同阶段广播出不同的消息，传递给ApplicationListener监听器实现类
+    - 获取classpath下META-INF/spring.factories中已配置的SpringApplicationRunListener，负责在SpringBoot启动不同阶段广播出不同的消息，传递给ApplicationListener监听器实现类
 
 - 构建应用上下文环境
 
@@ -117,4 +117,74 @@
 
 - 刷新应用上下文
 
+    - Resource定位
+
+        - 在SpringBoot中，prepareContext()方法会先将主类解析成BeanDefinition，然后在refresh()方法的invokeBeanFactoryPostProcessors()方法中解析主类的BeanDefinition获取basePackage的路径。这样就完成了定位的过程。其次SpringBoot的各种starter是通过SPI扩展机制实现的自动装配，SpringBoot的自动装配同样也是在invokeBeanFactoryPostProcessors()方法中实现的。还有一种情况，在SpringBoot中有很多的@EnableXXX注解，底层是@Import注解，在invokeBeanFactoryPostProcessors()方法中也实现了对该注解指定的配置类的定位加载。  
+        
+        - 常规的在SpringBoot中有三种实现定位，第一个是主类所在包的，第二个是SPI扩展机制实现的自动装配（比如各种starter），第三种就是@Import注解指定的类。
+
+    - BeanDefinition的载入
+    
+        - 载入就是通过上面的定位得到的basePackage，SpringBoot会将该路径拼接成：`classpath:com/lagou/**/.class`这样的形式，然后通过xPathMatchingResourcePatternResolver的类会将该路径下所有的.class文件都加载进来，然后遍历判断是不是有@Component注解，如果有的话，就是需要装载的BeanDefinition。
+        
+    - 注册BeanDefinition
+    
+        - 通过调用BeanDefinitionRegister接口的实现来完成。这个注册过程把载入过程中解析得到的BeanDefinition向IoC容器进行注册。在IoC容器中将BeanDefinition注入到一个ConcurrentHashMap中，IoC容器就是通过这个HashMap来持有这些BeanDefinition数据的。比如DefaultListableBeanFactory中的beanDefinitionMap属性。
+
+    - 获取到@Import导入的AutoConfigurationImportSelector组件，调用组件内部类方法执行自动配置逻辑
+
 - 刷新应用上下文后的扩展阶段
+
+    - 自定义需求，如启动后打印日志等后置处理方法，重写该方法
+
+## 4 自定义starter
+
+### 4.1 SpringBoot starter机制
+
+- 够抛弃以前繁杂的配置，将其统一集成进starter，应用者只需要在maven中引入starter依赖，SpringBoot就能自动扫描到要加载的信息并启动相应的默认配置
+
+### 4.2 使用场景
+
+- 将可独立于业务代码之外的功配置模块封装成一starter，复用的时候只需要将其在pom中引用依赖即可
+
+### 4.3 starter命名
+
+- 官方：spring-boot-starter-...
+
+- 自定义：...-spring-boot-starter
+
+### 4.4 热插拔技术
+
+- 通过@Import和@Condition...注解实现
+
+## 5 内嵌Tomcat原理
+
+### 5.1 基础
+
+- Spring Boot默认支持Tomcat，Jetty，和Undertow作为底层容器。而Spring Boot默认使用Tomcat，一旦引入spring-boot-starter-web模块，就默认使用Tomcat容器。
+
+### 5.2 Tomcat原理图
+
+- ![](../../images/SpringBoot/Tomcat启动流程.png)
+
+## 6 自动配置SpringMVC
+
+### 6.1 原理
+
+- Servlet3.0为springBoot彻底去掉xml（web.xml）奠定了基础
+
+- 当实现了Servlet3.0规范的容器（如Tomcat7及以上版本）启动时，通过SPI扩展机制自动扫描所有添加到JAR包下的META-INF/service/javax.servlet.ServletContainerInitializer中指定的全路径类，并实例化类，然后调用实现类的onStartup方法
+
+- onStartup方法将servlet实例添加（注册）到tomcat这样的servletContext中，才能提供请求服务
+
+    - `servletContext.addServlet(name, this.servlet);`
+
+### 6.2 SpringMVC自动配置类做了哪些事？
+
+- 配置DispatcherServlet：前端控制器
+
+- 配置DispatcherServletRegistrationBean：DispatcherServlet的注册类，负责将DispatcherServlet注册到ServletContext中
+
+### 6.3 DispatcherServlet是如何被注入到ServletContext中的？
+
+- 

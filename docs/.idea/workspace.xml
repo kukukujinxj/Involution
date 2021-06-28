@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/SpringBoot/AutoConfigurationImportSelector接口.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringBoot/SpringBoot自动配置原理.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringBoot/起步依赖.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringBoot/SpringBoot基础回顾.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringBoot/SpringBoot源码剖析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringBoot/SpringBoot缓存深入.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringBoot/SpringBoot部署与监控.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringBoot/SpringBoot高级进阶.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringBoot/Tomcat启动流程.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/SpringBoot/SpringBoot源码剖析.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringBoot/SpringBoot源码剖析.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +35,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\Involution\docs\images\SpringBoot" />
+      <recent name="D:\project\Involution\docs\md\SpringBoot" />
       <recent name="D:\project\Involution\docs\images\SpringMVC" />
       <recent name="D:\project\Involution\docs\images\Spring" />
       <recent name="D:\project\Involution\docs\images\微信公众平台" />
-      <recent name="D:\project\Involution\docs" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -71,7 +64,8 @@
       <workItem from="1624173565857" duration="10329000" />
       <workItem from="1624278884834" duration="4001000" />
       <workItem from="1624692810796" duration="17038000" />
-      <workItem from="1624784300692" duration="13049000" />
+      <workItem from="1624784300692" duration="13424000" />
+      <workItem from="1624883408399" duration="7564000" />
     </task>
     <servers />
   </component>
