@@ -99,3 +99,5 @@
 - Spring容器：Service对象和Dao对象
 
 - SpringMVC容器：Controller对象，可以引用Spring容器中的对象
+
+- ![](../../images/SpringMVC/父子容器.png)
