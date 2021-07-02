@@ -22,4 +22,4 @@
 
 - 类中有个sqlSessionFactory方法，作用是创建SqlSessionFactory类、Configuration类（mybatis最主要的类，保存着与mybatis相关的东西）
 
-- ③SqlSessionTemplate，作用是与mapperProxy代理类有关
+- SqlSessionTemplate，作用是与mapperProxy代理类有关
