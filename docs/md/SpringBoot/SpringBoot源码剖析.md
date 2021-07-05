@@ -184,7 +184,3 @@
 - 配置DispatcherServlet：前端控制器
 
 - 配置DispatcherServletRegistrationBean：DispatcherServlet的注册类，负责将DispatcherServlet注册到ServletContext中
-
-### 6.3 DispatcherServlet是如何被注入到ServletContext中的？
-
-- 
