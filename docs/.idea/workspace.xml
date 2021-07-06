@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/RBAC权限模型.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/SpringSecurity授权原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/CSRF源码.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/RememberMe流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/SpringSecurity认证流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/授权流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/过滤器链加载源码.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/SpringBoot/SpringBoot源码剖析.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringBoot/SpringBoot源码剖析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/SpringSecurity/SpringSecurity授权原理与实战.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringSecurity/SpringSecurity授权原理与实战.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/SpringSecurity/SpringSecurity源码剖析.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringSecurity/SpringSecurity源码剖析.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +39,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\Involution\docs\images\SpringSecurity" />
+      <recent name="D:\project\Involution\docs\md\SpringSecurity" />
       <recent name="D:\project\Involution\docs\images\SpringBoot" />
       <recent name="D:\project\Involution\docs\md\SpringBoot" />
       <recent name="D:\project\Involution\docs\images\SpringMVC" />
-      <recent name="D:\project\Involution\docs\images\Spring" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -73,7 +75,9 @@
       <workItem from="1625141767025" duration="6497000" />
       <workItem from="1625226837141" duration="4925000" />
       <workItem from="1625386040940" duration="13913000" />
-      <workItem from="1625486428594" duration="4059000" />
+      <workItem from="1625486428594" duration="4123000" />
+      <workItem from="1625574402197" duration="2328000" />
+      <workItem from="1625577501398" duration="3365000" />
     </task>
     <servers />
   </component>
