@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/CSRF源码.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/RememberMe流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/SpringSecurity认证流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/授权流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringSecurity/过滤器链加载源码.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Catalina结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Coyote内部组件.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/HTTPS原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat启动流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat容器处理流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat总体架构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat模块分层结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat类加载器.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat请求处理流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/浏览器访问服务器的过程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/类加载器.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/请求处理流程示意图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/Tomcat&amp;Nginx/Nginx原理深入剖析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/Tomcat&amp;Nginx/Tomcat源码剖析及调优.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/Tomcat&amp;Nginx/Tomcat高级使用及其原理剖析.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/SpringSecurity/SpringSecurity源码剖析.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringSecurity/SpringSecurity源码剖析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/SpringSecurity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/Tomcat&amp;Nginx" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Involution\docs\images\Tomcat&amp;Nginx" />
       <recent name="D:\project\Involution\docs\images\SpringSecurity" />
       <recent name="D:\project\Involution\docs\md\SpringSecurity" />
       <recent name="D:\project\Involution\docs\images\SpringBoot" />
       <recent name="D:\project\Involution\docs\md\SpringBoot" />
-      <recent name="D:\project\Involution\docs\images\SpringMVC" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -77,7 +87,11 @@
       <workItem from="1625386040940" duration="13913000" />
       <workItem from="1625486428594" duration="4123000" />
       <workItem from="1625574402197" duration="2328000" />
-      <workItem from="1625577501398" duration="3365000" />
+      <workItem from="1625577501398" duration="3458000" />
+      <workItem from="1625663539957" duration="5958000" />
+      <workItem from="1625741684134" duration="1217000" />
+      <workItem from="1625831365818" duration="4296000" />
+      <workItem from="1625904551344" duration="8757000" />
     </task>
     <servers />
   </component>
