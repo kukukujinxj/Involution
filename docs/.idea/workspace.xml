@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Catalina结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Coyote内部组件.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/HTTPS原理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat启动流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat容器处理流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat总体架构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat模块分层结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat类加载器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Tomcat请求处理流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/浏览器访问服务器的过程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/类加载器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/请求处理流程示意图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/Tomcat&amp;Nginx/Nginx原理深入剖析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/Tomcat&amp;Nginx/Tomcat源码剖析及调优.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/Tomcat&amp;Nginx/Tomcat高级使用及其原理剖析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/Nginx进程模型.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/动静分离.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/反向代理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tomcat&amp;Nginx/正向代理.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/Tomcat&amp;Nginx/Nginx原理深入剖析.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/Tomcat&amp;Nginx/Nginx原理深入剖析.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +80,8 @@
       <workItem from="1625663539957" duration="5958000" />
       <workItem from="1625741684134" duration="1217000" />
       <workItem from="1625831365818" duration="4296000" />
-      <workItem from="1625904551344" duration="8757000" />
+      <workItem from="1625904551344" duration="9494000" />
+      <workItem from="1625991815385" duration="6548000" />
     </task>
     <servers />
   </component>
