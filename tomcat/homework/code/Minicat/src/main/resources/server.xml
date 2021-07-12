@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Server>
+    <Service name="service">
+        <Connector port="8080"/>
+        <Engine>
+            <Host name="localhost" appBase="D:/project/Involution/tomcat/homework/code/webapps"/>
+        </Engine>
+    </Service>
+</Server>
