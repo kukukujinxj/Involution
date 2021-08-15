@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/Dubbo/Dubbo源码整体设计.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Dubbo/Dubbo调用关系说明.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Dubbo/整体的调用链路.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/Dubbo/Dubbo架构设计和源码剖析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/Dubbo/Dubbo深入配置和高级实战.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/Dubbo/架构演变及Dubbo使用回顾.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Eureka架构图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Hystrix⼯作流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Hystrix舱壁模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringCloud/服务注册中⼼⼀般原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringCloud/服务注册中⼼组件Eureka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/SpringCloud/SpringCloud核心组件原理及实战.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/SpringCloud/微服务架构与SpringCloud概述.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
     </list>
@@ -29,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/Dubbo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/SpringCloud" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,11 +40,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Involution\docs\images\SpringCloud" />
       <recent name="D:\project\Involution\docs\images\Dubbo" />
       <recent name="D:\project\Involution\docs\images\Zookeeper" />
       <recent name="D:\project\Involution\docs\images\分布式理论、架构设计" />
       <recent name="D:\project\Involution\docs\images\Cluster" />
-      <recent name="D:\project\Involution\docs\images\Tomcat&amp;Nginx" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -103,7 +104,12 @@
       <workItem from="1628080395006" duration="2986000" />
       <workItem from="1628165402697" duration="2873000" />
       <workItem from="1628255048372" duration="1640000" />
-      <workItem from="1628325127748" duration="4053000" />
+      <workItem from="1628325127748" duration="4133000" />
+      <workItem from="1628512416999" duration="3886000" />
+      <workItem from="1628683720707" duration="3145000" />
+      <workItem from="1628771376851" duration="2974000" />
+      <workItem from="1628920464313" duration="7541000" />
+      <workItem from="1629008926210" duration="2645000" />
     </task>
     <servers />
   </component>
@@ -115,10 +121,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="486" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1625386254267" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628328875917">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628924413518">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1628328875917" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1628924413518" />
     <state x="377" y="0" width="782" height="824" key="find.popup" timestamp="1623384539794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
