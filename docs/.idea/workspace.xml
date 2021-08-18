@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Eureka架构图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Hystrix⼯作流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Hystrix舱壁模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/服务注册中⼼⼀般原理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/服务注册中⼼组件Eureka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringCloud/SpringCloud核心组件原理及实战.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringCloud/微服务架构与SpringCloud概述.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringCloud/SpringCloudStream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SpringCloud/SpringGateway.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/SpringCloud/SpringCloud核心组件原理及实战.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringCloud/SpringCloud核心组件原理及实战.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,10 @@
       <workItem from="1628683720707" duration="3145000" />
       <workItem from="1628771376851" duration="2974000" />
       <workItem from="1628920464313" duration="7541000" />
-      <workItem from="1629008926210" duration="2645000" />
+      <workItem from="1629008926210" duration="2731000" />
+      <workItem from="1629117100595" duration="3106000" />
+      <workItem from="1629201910127" duration="3509000" />
+      <workItem from="1629289035720" duration="4407000" />
     </task>
     <servers />
   </component>
