@@ -2,7 +2,7 @@
 
 
 
-# SpringCloud核心组件原理及实战（上）
+# SpringCloud核心组件原理及实战
 
 ## 1 Eureka服务注册中⼼
 
