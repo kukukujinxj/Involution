@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e569ec07-9c1a-490b-b12b-c6b69e5b6a58" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1x53DFxrZucQvV71rHm8JegSZ8F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../spring-cloud-down-master/lagou-parent" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lagou.edu.controller" />
+      <recent name="com.lagou.edu.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LagouCloudGatewayApp9002">
+    <configuration name="LagouCloudGatewayApp9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-cloud-gateway-9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.LagouCloudGatewayApp9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouConfigServerApp9006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-config-server-9006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.LagouConfigServerApp9006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEurekaServerApp8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-eureka-server-8761" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.LagouEurekaServerApp8761" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEurekaServerApp8762" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-eureka-server-8762" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.LagouEurekaServerApp8762" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouServiceCodeApp8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-service-code-8081" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.LagouServiceCodeApp8081" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouServiceEmailApp8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-service-email-8082" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.LagouServiceEmailApp8082" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouServiceUserApp8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-service-user-8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.LagouServiceUserApp8080" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e569ec07-9c1a-490b-b12b-c6b69e5b6a58" name="Default Changelist" comment="" />
+      <created>1629631000866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629631000866</updated>
+      <workItem from="1629631003276" duration="111000" />
+      <workItem from="1629631241312" duration="604000" />
+      <workItem from="1630219272735" duration="15164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630221725502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1630221725502" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1630230916430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1630230916430" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1630235228219">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630235228219" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1630235228219">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630235228219" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1630235228219">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630235228219" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1630235228219">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630235228219" />
+    <state width="1493" height="124" key="GridCell.Tab.1.bottom" timestamp="1630235222816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630235222816" />
+    <state width="1493" height="124" key="GridCell.Tab.1.center" timestamp="1630235222816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1630235222816" />
+    <state width="1493" height="124" key="GridCell.Tab.1.left" timestamp="1630235222816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1630235222816" />
+    <state width="1493" height="124" key="GridCell.Tab.1.right" timestamp="1630235222816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1630235222816" />
+    <state width="1493" height="124" key="GridCell.Tab.2.bottom" timestamp="1630235222816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630235222816" />
+    <state width="1493" height="124" key="GridCell.Tab.2.center" timestamp="1630235222816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1630235222816" />
+    <state width="1493" height="124" key="GridCell.Tab.2.left" timestamp="1630235222816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1630235222816" />
+    <state width="1493" height="124" key="GridCell.Tab.2.right" timestamp="1630235222816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="124" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1630235222816" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1630222250652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1630222250652" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1630233007269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1630233007269" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1629631241207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1629631241207" />
+    <state x="377" y="112" width="782" height="600" key="find.popup" timestamp="1630232881599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="377" y="112" width="782" height="600" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1630232881599" />
+  </component>
+</project>

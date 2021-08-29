@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lagou-cloud-gateway-9002/lagou-cloud-gateway-9002.iml" filepath="$PROJECT_DIR$/lagou-cloud-gateway-9002/lagou-cloud-gateway-9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-parent.iml" filepath="$PROJECT_DIR$/lagou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-service-code-8081/lagou-service-code-8081.iml" filepath="$PROJECT_DIR$/lagou-service-code-8081/lagou-service-code-8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-service-common/lagou-service-common.iml" filepath="$PROJECT_DIR$/lagou-service-common/lagou-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-service-email-8082/lagou-service-email-8082.iml" filepath="$PROJECT_DIR$/lagou-service-email-8082/lagou-service-email-8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-service-user-8080/lagou-service-user-8080.iml" filepath="$PROJECT_DIR$/lagou-service-user-8080/lagou-service-user-8080.iml" />
+    </modules>
+  </component>
+</project>
