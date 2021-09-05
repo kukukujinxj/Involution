@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Nacos数据模型.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Nacos服务的分级模型.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/OAuth2协议⻆⾊和流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/Sentinel主要特性.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SpringCloud/基于Nacos实现Sentinel规则持久化.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringCloud/SpringCloudAlibaba高级实战.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/SpringCloud/SpringCloud高级实战.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/B+Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/B-Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/InnoDB文件存储结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/InnoDB架构图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/InnoDB聚簇索引.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/MyISAM非聚簇索引.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/MySQL运行机制.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/Redo Log写入机制.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/Redo Log工作原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL事务和锁.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL性能优化.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL架构原理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL索引原理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL集群架构.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/SpringCloud/SpringCloud核心组件原理及实战.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/SpringCloud/SpringCloud核心组件原理及实战.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/SpringCloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/MySQL" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,11 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Involution\docs\images\MySQL" />
       <recent name="D:\project\Involution\docs\images\SpringCloud" />
       <recent name="D:\project\Involution\docs\images\Dubbo" />
       <recent name="D:\project\Involution\docs\images\Zookeeper" />
       <recent name="D:\project\Involution\docs\images\分布式理论、架构设计" />
-      <recent name="D:\project\Involution\docs\images\Cluster" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -119,7 +125,10 @@
       <workItem from="1629894230651" duration="4654000" />
       <workItem from="1629980997030" duration="1841000" />
       <workItem from="1630067504549" duration="3692000" />
-      <workItem from="1630124693846" duration="10739000" />
+      <workItem from="1630124693846" duration="10818000" />
+      <workItem from="1630584240002" duration="3557000" />
+      <workItem from="1630738326753" duration="15347000" />
+      <workItem from="1630818523296" duration="12932000" />
     </task>
     <servers />
   </component>
