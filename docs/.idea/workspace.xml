@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/MySQL/B+Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/B-Tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/InnoDB文件存储结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/InnoDB架构图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/InnoDB聚簇索引.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/MyISAM非聚簇索引.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/MySQL运行机制.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/Redo Log写入机制.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/Redo Log工作原理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL事务和锁.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL性能优化.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL架构原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL索引原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/MySQL/MySQL集群架构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/MVCC1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/MVCC2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/MVCC3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/主键加锁.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/唯一键加锁.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/无索引加锁.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MySQL/非唯一键加锁.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/MySQL/MySQL事务和锁.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/MySQL/MySQL事务和锁.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +121,8 @@
       <workItem from="1630124693846" duration="10818000" />
       <workItem from="1630584240002" duration="3557000" />
       <workItem from="1630738326753" duration="15347000" />
-      <workItem from="1630818523296" duration="12932000" />
+      <workItem from="1630818523296" duration="12996000" />
+      <workItem from="1630930080797" duration="6204000" />
     </task>
     <servers />
   </component>
