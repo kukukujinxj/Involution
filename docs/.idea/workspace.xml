@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/MySQL/MVCC1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/MVCC2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/MVCC3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/主键加锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/唯一键加锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/无索引加锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/非唯一键加锁.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/md/MySQL/MySQL事务和锁.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/MySQL/MySQL事务和锁.md" afterDir="false" />
     </list>
@@ -122,7 +115,8 @@
       <workItem from="1630584240002" duration="3557000" />
       <workItem from="1630738326753" duration="15347000" />
       <workItem from="1630818523296" duration="12996000" />
-      <workItem from="1630930080797" duration="6204000" />
+      <workItem from="1630930080797" duration="6443000" />
+      <workItem from="1631017098309" duration="3308000" />
     </task>
     <servers />
   </component>
