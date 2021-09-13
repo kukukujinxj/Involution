@@ -105,5 +105,3 @@
   * [MySQL事务和锁](md/MySQL/MySQL事务和锁.md)
   
   * [MySQL集群架构](md/MySQL/MySQL集群架构.md)
-  
-  * [MySQL性能优化](md/MySQL/MySQL性能优化.md)
