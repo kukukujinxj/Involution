@@ -105,3 +105,7 @@
   * [MySQL事务和锁](md/MySQL/MySQL事务和锁.md)
   
   * [MySQL集群架构](md/MySQL/MySQL集群架构.md)
+  
+  * [分库分表实战及中间件](md/MySQL/分库分表实战及中间件.md)
+  
+  * [运维和第三方工具](md/MySQL/运维和第三方工具.md)
