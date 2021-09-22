@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a975186-bc54-48db-b4f0-602fbcf09063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/MySQL/AT模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/CAP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/ShardingSphere使用架构图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MySQL/ShardingSphere执行流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/MySQL/分库分表实战及中间件.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/MySQL/运维和第三方工具.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/MySQL/运维和第三方工具.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/MySQL/运维和第三方工具.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +122,7 @@
       <workItem from="1631535852330" duration="2394000" />
       <workItem from="1632114138591" duration="12958000" />
       <workItem from="1632190110673" duration="5512000" />
+      <workItem from="1632316839828" duration="2036000" />
     </task>
     <servers />
   </component>
